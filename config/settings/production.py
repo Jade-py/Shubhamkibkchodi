@@ -35,4 +35,3 @@ DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL", default="noreply@hotelbooking.
 
 # ─── Logging (production — file + console) ─────────────────────────────────────
 
-LOGGING["loggers"]["apps"]["level"] = "WARNING"  # noqa: F405
